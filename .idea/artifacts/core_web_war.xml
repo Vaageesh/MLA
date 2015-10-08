@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="core-web:war">
+    <output-path>$USER_HOME$/latest_repo/platform/hortiweb/core-web/target</output-path>
+    <root id="archive" name="core-web-0.0.15.war">
+      <element id="artifact" artifact-name="core-web:war exploded" />
+    </root>
+  </artifact>
+</component>

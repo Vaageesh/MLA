@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="MLA">
+    <output-path>$PROJECT_DIR$/out/artifacts/MLA</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="mla-connect" />
+        <option name="keyPassword" value="d2Vjb25uZWN0" />
+        <option name="keyStorePassword" value="bWxhYXBw" />
+        <option name="keyStoreUrl" value="file://$PROJECT_DIR$/mla-app.jks" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+            <option value="file://$PROJECT_DIR$/proguard-project.txt" />
+          </list>
+        </option>
+        <option name="runProGuard" value="true" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="MLA.apk">
+      <element id="android-final-package" facet="MLA/android/Android" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zinnia.hortiweb:model:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zinnia/hortiweb/model/0.0.1-SNAPSHOT/model-0.0.1-20150223.182328-1921.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zinnia/hortiweb/model/0.0.1-SNAPSHOT/model-0.0.1-20150223.182328-1921-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zinnia/hortiweb/model/0.0.1-SNAPSHOT/model-0.0.1-20150223.182328-1921-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
