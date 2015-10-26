@@ -12,6 +12,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.omega.nav_drawer.NavDrawerActivity;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -61,7 +62,8 @@ public class RegisterActivity extends Activity{
         String getStatus = pref.getString("register", "nil");
         if (getStatus.equals("true")) {
             //Intent intent = new Intent(RegisterActivity.this,DisplayActivity.class);
-            Intent intent = new Intent(RegisterActivity.this,TabActivity.class);
+            //Intent intent = new Intent(RegisterActivity.this,TabActivity.class);
+            Intent intent = new Intent(RegisterActivity.this, NavDrawerActivity.class);
             startActivity(intent);
         } else {
             setContentView(R.layout.register);
@@ -226,7 +228,8 @@ public class RegisterActivity extends Activity{
             editor.commit();
 */
             //Intent intent = new Intent(RegisterActivity.this,DisplayActivity.class);
-            Intent intent = new Intent(RegisterActivity.this,TabActivity.class); //comented for notification test
+            //Intent intent = new Intent(RegisterActivity.this,TabActivity.class); //comented for notification test
+            Intent intent = new Intent(RegisterActivity.this,NavDrawerActivity.class);
             startActivity(intent);
             //displayNotification(intent);
 

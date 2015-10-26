@@ -1,3 +1,4 @@
+/*
 package com.tabView.adapter;
 
 import android.support.v4.app.Fragment;
@@ -5,9 +6,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import com.tabview.mlapp.fragment.*;
 
+*/
 /**
  * Created by vageesh on 3/10/15.
- */
+ *//*
+
 public class FragmentAdapter extends FragmentPagerAdapter {
     public FragmentAdapter(FragmentManager fm){
         super(fm);
@@ -52,3 +55,4 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         return POSITION_NONE;
     }
 }
+*/

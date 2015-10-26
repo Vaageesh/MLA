@@ -14,7 +14,7 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.omega.mlapp.R;
-import com.omega.mlapp.TabActivity;
+import com.omega.nav_drawer.NavDrawerActivity;
 
 
 /**
@@ -77,7 +77,8 @@ public class GCMNotificationIntentService extends IntentService {
 
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
                 //new Intent(this, GCMRegisterActivity.class), 0);
-                new Intent(this, TabActivity.class), 0);
+                //new Intent(this, TabActivity.class), 0); commented to check drawer activity
+                new Intent(this, NavDrawerActivity.class), 0);
 
         Uri soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 

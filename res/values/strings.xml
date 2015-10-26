@@ -10,4 +10,36 @@
     <string name="welcomes">Welcomes You</string>
     <string name="biographyBtn">&quot;  Biography  &quot;</string>
     <string name="personName">&quot;   Ramakrishna S Doddamani   &quot;</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+
+    <string-array name="nav_drawer_items">
+        <item >NEWS/UPDATE</item>
+        <item >GALLERY</item>
+        <item >FACEBOOK</item>
+        <item >AUDIO</item>
+        <item >VIDEO</item>
+        <item >ABOUT US</item>
+        <item >BIOGRAPHY</item>
+        <item >CONTACT</item>
+        <item >FEEDBACK</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/news_update</item>
+        <item>@drawable/gallery</item>
+        <item>@drawable/facebook</item>
+        <item>@drawable/audio</item>
+        <item>@drawable/video</item>
+        <item>@drawable/about_us</item>
+        <item>@drawable/biography</item>
+        <item>@drawable/contact</item>
+        <item>@drawable/feedback</item>
+
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
 </resources>

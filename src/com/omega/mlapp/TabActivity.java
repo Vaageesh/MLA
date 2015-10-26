@@ -1,3 +1,4 @@
+/*
 package com.omega.mlapp;
 
 import android.app.ActionBar;
@@ -14,9 +15,11 @@ import android.util.Log;
 import com.omega.notification.GCMRegisterActivity;
 import com.tabView.adapter.FragmentAdapter;
 
+*/
 /**
  * Created by vageesh on 3/14/15.
- */
+ *//*
+
 public class TabActivity extends FragmentActivity implements ActionBar.TabListener{
     private ViewPager viewPager;
     private FragmentAdapter fragmentAdapter;
@@ -46,7 +49,9 @@ public class TabActivity extends FragmentActivity implements ActionBar.TabListen
         //actionBar.setHomeButtonEnabled(false);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-        /** Defining a listener for pageChange */
+        */
+/** Defining a listener for pageChange *//*
+
         ViewPager.SimpleOnPageChangeListener pageChangeListener = new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
@@ -65,9 +70,11 @@ public class TabActivity extends FragmentActivity implements ActionBar.TabListen
         }
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
-            /**
+            */
+/**
              * on swipe select the respective tab
-             */
+             *//*
+
             @Override
             public void onPageSelected(int position) {
                 fragmentAdapter.notifyDataSetChanged();
@@ -139,4 +146,4 @@ public class TabActivity extends FragmentActivity implements ActionBar.TabListen
 
     }
 
-}
+}*/

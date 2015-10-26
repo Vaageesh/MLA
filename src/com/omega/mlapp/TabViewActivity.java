@@ -1,3 +1,4 @@
+/*
 package com.omega.mlapp;
 
 
@@ -10,9 +11,11 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import com.tabView.adapter.FragmentAdapter;
 
+*/
 /**
  * Created by vageesh on 3/10/15.
- */
+ *//*
+
 //public class TabViewActivity extends FragmentActivity implements ActionBar.TabListener {
 public class TabViewActivity extends FragmentActivity implements ActionBar.TabListener{
     private ViewPager viewPager;
@@ -39,7 +42,9 @@ public class TabViewActivity extends FragmentActivity implements ActionBar.TabLi
         //actionBar.setHomeButtonEnabled(false);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-        /** Defining a listener for pageChange */
+        */
+/** Defining a listener for pageChange *//*
+
         ViewPager.SimpleOnPageChangeListener pageChangeListener = new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
@@ -55,9 +60,11 @@ public class TabViewActivity extends FragmentActivity implements ActionBar.TabLi
         }
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
-            /**
+            */
+/**
              * on swipe select the respective tab
-             */
+             *//*
+
             @Override
             public void onPageSelected(int position) {
                 actionBar.setSelectedNavigationItem(position);
@@ -94,3 +101,4 @@ public class TabViewActivity extends FragmentActivity implements ActionBar.TabLi
 
 
 
+*/

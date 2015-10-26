@@ -1,7 +1,7 @@
 package com.tabview.mlapp.fragment;
 
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +14,7 @@ import com.omega.mlapp.WebAppInterface;
 /**
  * Created by vageesh on 3/12/15.
  */
-public class ContactFragment extends Fragment{
+public class ContactFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
